@@ -1,0 +1,67 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+$menuText:white;;
+$menuActiveText:white;
+$subMenuActiveText:white; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:rgba(25, 25, 25, 0);
+$menuHover:hsla(0,0%,78%,.2);
+
+$subMenuBg:rgba(25, 25, 25, 0);
+$subMenuHover:hsla(0,0%,78%,.2);
+
+$sideBarWidth: 260px;
+
+$navbarBg:rgba(3, 0, 5, 0.87);
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+
+@mixin navbar_primary($color){
+  background:$navbarBg;
+  color: white;
+  [theme="primary0"] & {
+    background: rgb(221, 75, 57, 0.87);
+    color: white;
+  }
+  [theme="primary1"] & {
+    background:rgb(85, 82, 153, 0.87);
+    color: white;
+  }
+  [theme="primary2"] & {
+    background:rgb(0, 166, 90, 0.87);
+    color: white;
+  }
+  [theme="primary3"] & {   
+    background:rgb(25, 81, 190, 0.87);
+    color: white; 
+  }
+  [theme="primary4"] & {   
+    background:rgb(24, 144, 255, 0.87);
+    color: white; 
+  }
+  [theme="primary5"] & {   
+    background:rgba(3, 0, 5, 0.87);
+    color: white; 
+  } 
+}

@@ -1,0 +1,8 @@
+
+
+@mixin cursor_cursor_primary(){
+    cursor:auto;
+    [cursor_cursor_theme="cursor_move"] & {
+        cursor: move;
+    }
+  }
