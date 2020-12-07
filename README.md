@@ -1,4 +1,13 @@
-## 工程说明 后台管理系统模板 VUE-ADMIN
+## 后台管理系统模板 VUE-ADMIN
+
+### 工程使用框架 
+Vue.js Vuex Vue-Router Element UI 组件库 Avue.js
+ 
+ ![主题1](/src/assets/1.png)
+ ![主题2](/src/assets/2.png)
+ ![主题3](/src/assets/3.png)
+ ![主题4](/src/assets/4.png)
+## 工程结构
 ```
 ├─ .gitignore
 ├─ .travis.yml
