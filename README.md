@@ -1,5 +1,4 @@
-## 事故研究
-
+##工程说明 后台管理系统模板 VUE-ADMIN
 ```
 ├─ .gitignore
 ├─ .travis.yml
@@ -13,23 +12,6 @@
 ├─ README.md
 ├─ src
 │  ├─ api
-│  │  ├─ admin
-│  │  │  ├─ sysDict.js
-│  │  │  ├─ sysMenu.js
-│  │  │  ├─ sysOrg.js
-│  │  │  ├─ sysRes.js
-│  │  │  ├─ sysRole.js
-│  │  │  ├─ sysUser.js
-│  │  │  └─ sysUserRole.js
-│  │  ├─ appointment.js
-│  │  ├─ base
-│  │  │  └─ baseApi.js
-│  │  ├─ event.js
-│  │  ├─ eventParticipants.js
-│  │  ├─ organization.js
-│  │  ├─ service
-│  │  │  └─ EventService.js
-│  │  └─ user.js
 │  ├─ App.vue
 │  ├─ assets
 │  │  ├─ 404_images
@@ -115,48 +97,12 @@
 │     ├─ error
 │     │  ├─ 401.vue
 │     │  └─ 404.vue
-│     ├─ fullcalendar
-│     │  ├─ components
-│     │  │  ├─ EventDetail.js
-│     │  │  ├─ eventDetail.scss
-│     │  │  ├─ index.js
-│     │  │  ├─ Main.vue
-│     │  │  ├─ MeetBottom.vue
-│     │  │  ├─ OrgDrawer.vue
-│     │  │  ├─ StrokeDialog.vue
-│     │  │  └─ StrokeLeft.vue
-│     │  └─ index.vue
-│     ├─ meet
-│     │  ├─ AddDialog.vue
-│     │  └─ index.vue
-│     ├─ stroke
-│     │  ├─ components
-│     │  │  ├─ DetailDialog.vue
-│     │  │  ├─ PanelGroup.vue
-│     │  │  └─ PanelTable.vue
-│     │  └─ index.vue
 │     └─ sys
-│        ├─ sysLookUp
-│        │  └─ index.vue
-│        ├─ sysMenu
-│        │  └─ index.vue
-│        ├─ sysOrg
-│        │  └─ index.vue
-│        ├─ sysRes
-│        │  └─ index.vue
-│        ├─ sysRole
-│        │  ├─ index.vue
-│        │  ├─ SysMenuRoleDialog.vue
-│        │  └─ SysResRoleDialog.vue
-│        └─ sysUser
-│           ├─ index.vue
-│           └─ SysUserRoleDialog.vue
 └─ vue.config.js
 
 ```
 
-
-## 开发
+## 开发说明
 
 ```bash
 
